@@ -18,13 +18,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * JWT 工具类（工业级实现）
- *
+ * JWT 工具类
+ * <p>
  * 功能：
  * - 生成 Access Token 和 Refresh Token
  * - 解析和验证 Token
  * - 提取用户信息
- *
+ * <p>
  * 安全特性：
  * - 使用 HS512 签名算法
  * - 密钥从配置文件读取（支持环境变量）
